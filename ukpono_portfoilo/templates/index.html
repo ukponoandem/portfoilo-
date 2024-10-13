@@ -1,0 +1,178 @@
+ {% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ukpono Portfoilo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static "style.css" %}">
+        <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <div class="logo"></div>
+            <div class="menu-icon" id="menu-icon">
+                &#9776; <!-- This is the hamburger icon -->
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li> <a href='#home'>HOME</a></li>
+                <li> <a href='#about'>ABOUT</a></li>
+                <li> <a href='#skills'>SKILLS</a></li>
+                <li> <a href='#project'>PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class='Header' id='home' >
+        <span class='text' id='container'>
+       
+        </span>
+    
+<div class='main-text' >
+    <span>AKWAIBOM STATE, NIGERIA | UYO | (234) 9161248397 | 
+        <a href='mailto:UKPONOADEM@GMAIL.COM'>UKPONOADEM@GMAIL.COM</a></div><br>
+<div class='home-text'>A <span class='mytxt'>Female</span>  Full-Stack Developer</div><br>
+<div class='about'> I develop Full-Stack solution</div>
+<div class='about-home'>that delight and inspire Users.</div>
+
+<div class='icon'>
+    <a href='https://github.com/ukponoandem'class='social-icon'><i class="fab fa-github"></i></a>
+    <a href='https://web.facebook.com/profile.php?id=100089205093571'class='social-icon' ><i class="fab fa-facebook-f"></i></a>
+    <a href='https://www.messenger.com/' class='social-icon'><i class="fab fa-facebook-messenger"></i></a>
+<a href='https://wa.me/2349161248397' class='social-icon' > <i class="fab fa-whatsapp"></i></a>
+<a href='tel:+2349161248397' class='social-icon'><i class="fas fa-phone"></i></a>
+        </div>
+</div>
+
+
+<div class="card">
+    <h1 id="about">ABOUT</h1>
+    <div class="about-header">
+        <div class='about-text'>Hi, Am UKPONO ANDEM</div>
+        <span>A Female Full-Stack Developer Based in Nigeria, I create user-friendly interfaces for fast-growing startups.</span>
+        <span>When it comes to web development, my passion lies in crafting captivating experiences that leave users impressed and engaged.</span>
+        <span>Partnership is the key to my work.I love working with others to boost and deliver high-quality results.</span>
+        <span>I love to learn new things and always open to new opportunities</span>
+        <span>I believe that continuous learning and fostering meaningful connections are essential for personal and professional growth.</span>
+        <img src="{% static 'pic1.jpg' %}" class="image" alt="About Me">
+    </div>
+<div class='main-logo'>
+    <h2 id='skills'>Technologies I Work With</h2>
+    {% comment %} <div class="logos" >
+        <img src="{% static 'html-logo.png' %}" class="logo" alt="HTML Logo">
+        <p>Html</p>
+        <img src="{% static 'css-logo.png' %}" class="logo" alt="CSS Logo">
+        <p>Css</p>
+        <img src="{% static 'js-logo.jpg' %}" class="logo" alt="JavaScript Logo">
+        <img src="{% static 'jq.png' %}" class="logo" alt="jQuery Logo">
+    </div> {% endcomment %}
+
+    <div class="logos">
+        <div class="logo-container">
+            <img src="{% static 'html-logo.png' %}" class="logo" alt="HTML Logo">
+            <p>Html</p>
+        </div>
+        <div class="logo-container">
+            <img src="{% static 'css-logo.png' %}" class="logo" alt="CSS Logo">
+            <p>Css</p>
+        </div>
+        <div class="logo-container">
+            <img src="{% static 'js-logo.jpg' %}" class="logo" alt="JavaScript Logo">
+            <p>JavaScript</p>
+        </div>
+        <div class="logo-container">
+            <img src="{% static 'jq.png' %}" class="logo" alt="jQuery Logo">
+            <p>jQuery</p>
+        </div>
+        <div class="logo-container">
+            <img src="{% static 'django-logo.png' %}" class="logo" alt="django Logo">
+            <p>django</p>
+        </div>
+<div class='logo-container'>
+    <img src="{% static 'git-logo.png' %}" class="logo" alt="django Logo">
+    <p>git</p>
+</div>
+<div class='logo-container'>
+<img src="{% static 'python-logo.png' %}" class="logo" alt="python Logo">
+<p>python</p>
+    </div>
+    <div class='logo-container'>
+        <img src="{% static 'Postgres-logo.png' %}" class="logo" alt="postgres Logo">
+        <p>postgres</p>
+            </div>
+     <div class='logo-container'>
+                <img src="{% static 'react-logo.png' %}" class="logo" alt="react Logo">
+                <p>react</p>
+
+         
+</div>
+</div>
+
+
+<div class='project-header'>
+<h1 class='project-text' id='project'>PROJECT</h1>
+<div class='project-logo'>
+    <a href='https://ukponoandem.github.io/Tin-Dog/#dow'>
+    <img src="{% static 'tindog-logo.jpg' %}" class="log" alt="react Logo">
+</a>
+   
+    <p class='texts'> The TinDog website is a fun and engaging platform designed to connect dog lovers with a community of fellow enthusiasts. The playful theme and vibrant design make it a welcoming space for users 
+        to share experiences, find information, and connect with others who share their passion for dogs.</p>
+</div>
+
+<div class='project-logo'>
+    <a href='https://dress-code-xoba.vercel.app/'>
+    <img src="{% static 'dress logo.png' %}" class="log" alt="react Logo">
+</a>
+    <p class='texts'>The Dress Code website is an eCommerce platform tailored for fashion enthusiasts looking to explore a wide range of stylish clothing and accessories. With a focus on contemporary fashion, 
+        it offers users an effortless shopping experience while catering to various tastes and occasions.</p>
+</div>
+
+<div class='project-logo'>
+    <a href='https://keeper-rosy-eight.vercel.app/'>
+    <img src="{% static 'kepper.png' %}" class="log" alt="react Logo">
+</a>
+    <p class='texts' >Welcome to our Storage Website, your ultimate solution for organizing and storing your belongings safely and efficiently! Whether you need temporary storage 
+        for moving or long-term solutions for your excess items, we’ve got you covered.</p>
+</div>
+
+<div class='project-logo'>
+    <a href='https://weather-app-ev71.onrender.com'>
+    <img src="{% static 'weather-logo.png' %}" class="log" alt="weather Logo">
+</a>
+    <p class='texts'>Welcome to our Weather Website, your go-to source for accurate and up-to-date weather information! Whether you're planning your day, scheduling outdoor activities, or preparing for a trip, our platform provides 
+        everything you need to stay informed about current and forecasted weather conditions.</p>
+</div>
+
+<div class='project-logo'>
+    <a href='https://blog-3j9q.onrender.com/'>
+    <img src="{% static 'blog-logo.png' %}" class="log" alt="react Logo">
+</a>
+    <p class='texts' >Welcome to my Blog Website, a space where I share my thoughts, experiences, and insights on a variety of topics that inspire me! From personal 
+        anecdotes to informative articles, this blog is a reflection of my journey and interests.</p>
+</div>
+
+</div>
+
+<div class='contact-header' id='contact'>
+<h1 class='contact-text'>GET<span class='contact-text2'> IN TOUCH</span></h1><br>
+{% comment %} <p class='contact-note'>For any information regarding my work kindly. contact me through the following contact or Email Address I will Love to hear from you.</p> {% endcomment %}
+
+
+</div>
+
+<p class='contact-note'>For any information regarding to my work kindly contact me through the following phone-number or Email Address.<br> <span class='con-txt'> I will Love to hear from you.</span></p>
+<p class='contact-phone'>PHONE: <span>+9161248397</span></p>
+<p class='contact-email'>Email: <span>ukponoadem@gmail.com</span></p>
+
+</div>
+
+<footer class='footers'>Design & Develop by:<br> Ukpono Andem  </footer>
+
+   <script src="{% static "script.js" %}"></script> 
+    </body>
+</html>
